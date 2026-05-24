@@ -151,7 +151,7 @@ body {
 
 .intro_text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
 
 .skills__header {
