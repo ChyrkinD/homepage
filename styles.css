@@ -189,9 +189,6 @@ body {
   font-size: 1.2em;
 }
 
-.skills-list-item {
-}
-
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
@@ -257,6 +254,10 @@ body {
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__education-university {
   margin-bottom: 20px;
 }
 
