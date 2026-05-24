@@ -12,8 +12,8 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #94de43;
+  --text-decoration-color: #82d926;
 }
 
 .container {
@@ -87,7 +87,9 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 210px;
 }
 
 .contact-info__block--center {
@@ -112,10 +114,6 @@ body {
   justify-content: center;
 }
 
-.contact-info__item-icon path {
-  fill: var(--icon-color);
-}
-
 .contact-info__item-icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
@@ -123,9 +121,9 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  width: 210px;
+  height: 210px;
+  object-fit: fill; /* change from cover to fill because it`s make image less blurred */
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
